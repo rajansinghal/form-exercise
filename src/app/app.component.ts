@@ -1,20 +1,8 @@
-/*import { Component } from '@angular/core';
-
-@Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
-})
-export class AppComponent {
-  title = 'app';
-}
-*/
-
 import { Component } from '@angular/core'; 
+import {PaginatePipe, PaginationService} from 'ng2-pagination';  
 
 @Component({ 
-   selector: 'my-app', 
-   template: '<product-form>l;</product-form>' 
+   selector: 'form-app', 
+   templateUrl: './app.component.html'     
 }) 
-
 export class AppComponent { } 
