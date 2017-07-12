@@ -6,6 +6,8 @@ import {PaginatePipe, PaginationService} from 'ng2-pagination';
    templateUrl: './app.component.html'     
 }) 
 export class AppComponent { 
-   TutorialName: string = 'Angular JS2'; 
-   appList: string[] = ["Binding", "Display", "Services"]; 
+  Status: boolean = true; 
+   clicked(event) { 
+      this.Status = false; 
+   } 
 } 
