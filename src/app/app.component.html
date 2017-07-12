@@ -1,5 +1,6 @@
-		<ul> 
-         <li *ngFor = "let item of collection | paginate: { 
-            itemsPerPage: 5, currentPage: p }"> ... </li> 
-      </ul>  
-      <pagination-controls (pageChange) = "p = $event"></pagination-controls> 
+<div> 
+   The name of this Tutorial is {{TutorialName}}<br>  
+   The first Topic is {{appList[0]}}<br> 
+   The second Topic is {{appList[1]}}<br> 
+   The third Topic is {{appList[2]}}<br> 
+</div> 

@@ -5,4 +5,7 @@ import {PaginatePipe, PaginationService} from 'ng2-pagination';
    selector: 'form-app', 
    templateUrl: './app.component.html'     
 }) 
-export class AppComponent { } 
+export class AppComponent { 
+   TutorialName: string = 'Angular JS2'; 
+   appList: string[] = ["Binding", "Display", "Services"]; 
+} 
