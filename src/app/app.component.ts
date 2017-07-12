@@ -6,6 +6,8 @@ import {PaginatePipe, PaginationService} from 'ng2-pagination';
    templateUrl: './app.component.html'     
 }) 
 export class AppComponent { 
-   TutorialName: string = 'Angular JS2'; 
-   appList: string[] = ["Binding", "Display", "Services"]; 
+   newdate = new Date(2016, 3, 15);; 
+   newValue: number = 123;
+   newValue1: number = 30;   
+   newValue2: number = 0.3;    
 }
